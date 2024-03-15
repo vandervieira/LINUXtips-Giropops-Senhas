@@ -9,6 +9,7 @@ Este repositório contém as instruções para realizar o segundo desafio práti
    ```bash
    docker build -t vandervieira/linuxtips-giropops-senhas:1.0 .
    ```
+Nota: A imagem está no Registry do docker, porém indico buildar com o Dockerfile atual, pois a imagem que subi pro Docker Hub foi buildada em arm64 (Mac Silicon Chip) e em alguns linux amd64 na hora de subir o container gera erro.
 
 2. **Criar Rede:**
    ```bash
